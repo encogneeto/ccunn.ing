@@ -1,6 +1,6 @@
 baseURL = 'https://ccunn.ing/'
 locale = 'en-us'
-title = 'ccunn.ing'
+title = 'Caleb Cunningham'
 
 [markup]
   [markup.goldmark]
@@ -10,3 +10,16 @@ title = 'ccunn.ing'
 [module]
   [[module.imports]]
     path = "github.com/jpanther/congo/v2"
+
+[params]
+colorScheme = "ocean"
+
+[params.header]
+layout = "basic"
+showTitle = false
+
+[params.homepage]
+layout = "profile"
+
+[params.footer]
+showAppearanceSwitcher = true

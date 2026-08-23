@@ -1,0 +1,5 @@
+.profile-image {
+  border-radius: 50%;
+  border: 5px solid rgb(var(--color-secondary-700));
+  display: block;
+}
