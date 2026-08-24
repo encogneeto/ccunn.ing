@@ -13,6 +13,7 @@ title = 'Caleb Cunningham'
 
 [params]
 colorScheme = "ocean"
+defaultAppearance = "dark"
 
 [params.header]
 layout = "basic"
@@ -21,5 +22,13 @@ showTitle = false
 [params.homepage]
 layout = "profile"
 
+
 [params.footer]
 showAppearanceSwitcher = true
+
+[params.author]
+  links = [
+    { lemmy = "https://lemmy.world/u/ccunning" },
+    { mastodon = "https://mastodon.world/@ccunning" },
+    { pixelfed = "https://pixelfed.social/ccunning" },
+  ]
