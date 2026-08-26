@@ -1,6 +1,6 @@
 baseURL = 'https://ccunn.ing/'
 locale = 'en-us'
-title = 'Caleb Cunningham'
+title = 'ccunn.ing'
 
 [markup]
   [markup.goldmark]
@@ -17,7 +17,7 @@ defaultAppearance = "dark"
 
 [params.header]
 layout = "basic"
-showTitle = false
+showTitle = true
 
 [params.homepage]
 layout = "profile"
@@ -27,6 +27,8 @@ layout = "profile"
 showAppearanceSwitcher = true
 
 [params.author]
+image = "images/Profile.png"
+name = "Caleb Cunningham"
   links = [
     { lemmy = "https://lemmy.world/u/ccunning" },
     { mastodon = "https://mastodon.world/@ccunning" },
